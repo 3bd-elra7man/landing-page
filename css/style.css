@@ -1,0 +1,199 @@
+* {
+    font-family: poppins, sans-serif;    
+    scroll-behavior: smooth;
+}
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../images/intro-bg.jpg);
+    background-position: center center;
+    height: 100vh;
+}
+#styles-switcher {
+    background: #fff;
+    width: 12.625rem;
+    position: fixed;
+    top: 35%;
+    z-index: 99;
+    padding: 1.125rem;
+    left: -12.625rem;
+}
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.linkList a {
+    color: rgba(250, 250, 250, 0.9) !important;
+    transition: all 0.2s;
+    font-weight: 400;
+    padding: 0.9375rem !important;
+}
+.navbar-nav li:first-child a {
+    color: #20c997 !important;
+}
+.linkList a:hover {
+    color: #20c997 !important;
+}
+.homeContent h4 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 0.3125rem;
+}
+.homeContent h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0.3125rem;
+}
+.homeContent p {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    margin-bottom: 0.3125rem;
+}
+.homeContent button {
+    margin-top: 0.625rem;
+    color: white;
+    font-weight: 500;
+    border: 0.125rem solid #20c997;
+    border-radius: 2.5rem;
+    background: none;
+    padding: 0.9375rem 2.5rem;
+}
+.homeContent button:hover {
+    background-color: #20c997;
+}
+.head h1 {
+    color: #dee3e4 !important;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 6vw; /* Responsive size by default */
+}
+.head h3::after {
+    content: "";
+    background-color: #20c997;
+    width: 5rem;
+    height: 0.1875rem;
+    display: block;
+    margin: 0.25rem auto 0 auto;
+}
+.info li {
+    list-style-type: none;
+    border-bottom: 0.0625rem solid #eaeaea;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.info .btn {
+    background-color: #20c997 !important;
+    border: 0.0625rem solid;
+    margin-left: 1.25rem;
+    padding: 1rem 3.4375rem;
+    border-width: 0.125rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+.info .btn:hover {
+    box-shadow: 0rem 0.3125rem 0.9375rem rgba(0, 0, 0, 0.15);
+    background-color: white !important;
+    color: #20c997;
+}
+.counters .count {
+    color: RGB(142, 154, 157);
+    font-weight: 500;
+    font-size: 3rem;
+}
+.counters .row {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.box .iconbox {
+    display: flex;
+    color: #20c997 !important;
+    width: 4.375rem;
+    height: 4.375rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.875rem;
+}
+.date {
+    font-weight: 400 !important;
+    background-color: #20c997 !important;
+    color: white;
+    padding: 0.125rem 0.5rem;
+}
+.resBtn {
+    color: #6c757d;
+    border: 0.125rem solid #6c757d;
+    padding: 1rem 3.4375rem;
+    border-width: 0.125rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+.resBtn:hover {
+    background-color: #6c757d !important;
+    color: white;
+}
+.portMenu .port-item {
+    text-align: center;
+    font-weight: 400;
+    padding: 0.5rem 0.9375rem;
+    color: #7b8084;
+    transition: all 0.5s ease;
+}
+.portMenu .port-item:hover {
+    color: #20c997;
+}
+.portMenu .one::after {
+    height: 0.125rem;
+    width: 100%;
+    content: ' ';
+    background-color: #20c997;
+    display: block;
+    position: absolute;
+    bottom: 0.125rem;
+    left: 0;
+}
+.portLayer {
+    text-align: center;
+    display: flex !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.portImg:hover .portLayer {
+    opacity: 1;
+}
+.layerTxt {
+    width: 100%;
+    margin: auto;
+}
+.cBox {
+    background-color: #e9ecef !important;
+}
+.clients .cInfo .tm {
+    color: #6c757d;
+    font-weight: 500;
+}
+.cTxt {
+    font-weight: 500;
+}
+.conBtn {
+    background-color: #20c997;
+    color: white;
+    border: 0.125rem solid #20c997;
+    padding: 1rem 3.4375rem;
+    border-width: 0.125rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+.conBtn:hover {
+    background-color: white;
+    color: #20c997;
+}
+.defColor {
+    color: #20c997 !important;
+}
