@@ -212,5 +212,5 @@ header {
 }
 .iconz:hover {
     color: #20c997 !important;
-    cursor: pointer;
+    cursor: pointer !important;
 }
